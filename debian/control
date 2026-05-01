@@ -1,12 +1,12 @@
-Source: deepin-desktop-environment
+Source: velora-desktop-environment
 Section: metapackages
 Priority: standard
-Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends: debhelper-compat (= 13),
-Standards-Version: 3.9.3
-Homepage: https://github.com/deepin-community/deepin-desktop-environment
+Standards-Version: 4.5.0
+Homepage: https://github.com/LingmoOS/velora-desktop-environment
 
-Package: deepin-desktop-environment-base
+Package: velora-desktop-environment-base
 Architecture: any
 Depends: adduser,
          apt,
@@ -27,13 +27,11 @@ Depends: adduser,
          udev,
          zlib1g,
          ${misc:Depends},
-Recommends: deepin-keyring,
-Description: Deepin New Desktop Environment - Next
- This is a base meta package depends Deepin New Desktop Envrionment.
+Description: Velora Desktop Environment
+ This is a base meta package depends Velora Desktop Envrionment.
  .
- You can safety remove it after installed.
 
-Package: deepin-desktop-environment-cli
+Package: velora-desktop-environment-cli
 Architecture: any
 Depends: dpkg-dev,
          accountsservice,
@@ -171,12 +169,11 @@ Recommends: aptitude,
             xorg,
             xserver-xorg-input-wacom,
 Conflicts: exfat-utils
-Description: Deepin New Desktop Environment - Next
- This is a cli meta package depends Deepin New Desktop Envrionment.
+Description: Velora Desktop Environment
+ This is a cli meta package depends Velora Desktop Envrionment.
  .
- You can safety remove it after installed.
 
-Package: deepin-desktop-environment-core
+Package: velora-desktop-environment-core
 Architecture: any
 Depends: accountsservice,
          cups,
@@ -208,7 +205,7 @@ Depends: accountsservice,
          dde-tray-loader,
          dde-wirelesscasting-plugin,
          deepin-authenticate,
-         deepin-desktop-schemas,
+         velora-desktop-schemas,
          deepin-icon-theme,
          deepin-service-plugin-network,
          deepin-terminal,
@@ -259,12 +256,10 @@ Recommends: cups,
             dde-device-formatter,
             dde-grand-search,
             dde-kwin (>= 6.0.0),
-            deepin-deepinid-client,
-            deepin-keyring-whitebox,
             deepin-settings-default | deepin-desktop-base,
             deepin-desktop-theme,
             deepin-face,
-            deepin-gtk-theme,
+            velora-gtk-theme,
             deepin-network-displays,
             deepin-osconfig,
             deepin-recovery-plugin,
@@ -281,21 +276,18 @@ Recommends: cups,
             linglong-bin,
             linglong-box,
             linglong-installer,
-            plymouth-theme-deepin-logo,
             ttf-deepin-opensymbol,
             uos-ste-resourced [!riscv64],
             xdg-desktop-portal-dde,
-Description: Deepin New Desktop Environment - Next
- This is a dde package depends Deepin New Desktop Envrionment.
+Description: Velora Desktop Environment
+ This is a meta package depends Velora Desktop Envrionment.
  .
 
-Package: deepin-desktop-environment-extras
+Package: velora-desktop-environment-extras
 Architecture: any
-Depends: deepin-desktop-environment-core,
+Depends: velora-desktop-environment-core,
          ${misc:Depends},
-Recommends: com.deepin.gomoku,
-            com.deepin.lianliankan,
-            dde-calendar,
+Recommends: dde-calendar,
             dde-introduction,
             dde-manual-content,
             dde-printer,
@@ -311,9 +303,8 @@ Recommends: com.deepin.gomoku,
             deepin-diskmanager,
             deepin-draw [riscv64],
             deepin-editor [riscv64],
-            deepin-fcitx5configtool-plugin,
+            lingmo-fcitx5configtool-plugin,
             deepin-font-manager [riscv64],
-            deepin-home,
             deepin-image-viewer [riscv64],
             deepin-log-viewer,
             deepin-mail [riscv64],
@@ -331,18 +322,18 @@ Recommends: com.deepin.gomoku,
             tlp,
             uos-ai,
             uos-ai-model-plugin,
-Description: Deepin New Desktop Environment - Next
- This is a extras package depends Deepin New Desktop Envrionment.
+Description: Velora Desktop Environment
+ This is a extras package depends Velora Desktop Envrionment.
  .
  This package installs the standard set of applications that are
- part of the official deepin release.
+ part of the official Lingmo OS release.
 
-Package: deepin-desktop-environment-ll
+Package: velora-desktop-environment-ll
 Architecture: any
 Depends: ${misc:Depends},
 Pre-Depends: linglong-bin,
-Description: Deepin New Desktop Environment - Next
- This is a ll package depends Deepin New Desktop Envrionment.
+Description: Velora Desktop Environment
+ This is a ll package depends Velora Desktop Envrionment.
  .
  This package installs the standard set of applications that are
- part of the official deepin release.
+ part of the official Lingmo OS  release.
