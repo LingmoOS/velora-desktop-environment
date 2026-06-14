@@ -1,3 +1,9 @@
+velora-desktop-environment (2026.06.14.lingmo.1) unstable; urgency=medium
+
+  * update Depends.
+
+ -- Lingmo OS Team <team@lingmo.org>  Sun, 14 Jun 2026 23:40:00 +0800
+
 velora-desktop-environment (2026.05.01.lingmo.1) unstable; urgency=medium
 
   * new release for Lingmo OS.
