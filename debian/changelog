@@ -1,4 +1,4 @@
-velora-desktop-environment (2026.07.04.lingmo.1) unstable; urgency=medium
+velora-desktop-environment (2026.07.04.lingmo.2) unstable; urgency=medium
 
   * fix: 将依赖项velora-tray-loader替换为lingmo-dock
 

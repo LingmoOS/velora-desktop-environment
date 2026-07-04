@@ -330,13 +330,3 @@ Description: Velora Desktop Environment
  .
  This package installs the standard set of applications that are
  part of the official Lingmo OS release.
-
-Package: velora-desktop-environment-ll
-Architecture: any
-Depends: ${misc:Depends},
-Pre-Depends: linglong-bin,
-Description: Velora Desktop Environment
- This is a ll package depends Velora Desktop Envrionment.
- .
- This package installs the standard set of applications that are
- part of the official Lingmo OS  release.
