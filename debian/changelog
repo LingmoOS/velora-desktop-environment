@@ -1,3 +1,9 @@
+velora-desktop-environment (2026.07.04.lingmo.1) unstable; urgency=medium
+
+  * fix: 将依赖项velora-tray-loader替换为lingmo-dock
+
+ -- Lingmo OS Team <team@lingmo.org>  Sat, 04 Jul 2026 17:12:00 +0800
+
 velora-desktop-environment (2026.06.20.lingmo.1) unstable; urgency=medium
 
   * update Depends.
